@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FIrstAppKotlin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="apikey">59bb313dc8mshf4509b895611cd8p1b3b33jsn3624abcfb633</string>
+    <string name="login">Inicio de Sesion</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="enter">Ingresar</string>
+    <string name="pokemon">Pokemon</string>
+    <string name="no_pass">No ingreso la contraseña</string>
+    <string name="no_email">No ingreso el correo</string>
+    <string name="success">Success</string>
+    <string name="search">Buscar</string>
+    <string name="welcome">Bienvenido %s</string>
+    <string name="abilities">Habilidades</string>
+    <string name="moves">Movimientos</string>
+
+</resources>

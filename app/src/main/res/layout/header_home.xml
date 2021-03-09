@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primaryColor"
+    android:elevation="5dp"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1.8"
+        android:padding="5dp"
+        android:text="@string/pokemon"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textFontWeight="900"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:id="@+id/ly_show_search"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="0.2"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_menu_search"
+            android:backgroundTint="@color/white" />
+    </LinearLayout>
+</LinearLayout>
